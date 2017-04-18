@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<catalog>
+   <case id="bk101">
+    <thumbnail>https://upload.wikimedia.org/wikipedia/commons/c/c4/Broccoli-thumbnail.png</thumbnail>
+    <date>2017-04-03</date>
+    <ObjFile>
+      <name>bones-left-12500</name>
+      <url>Flap-04-03-2017/bones-left-12500.obj</url>
+      <colour>255,255,255,100</colour>
+    </ObjFile>
+     <ObjFile>
+       <name>vessels-left-10000</name>
+       <url>Flap-04-03-2017/vessels-left-10000.obj</url>
+       <colour>255,0,0,10</colour>
+     </ObjFile>
+     <ObjFile>
+       <name>tap-left-7500</name>
+       <url>Flap-04-03-2017/tap-left-7500.obj</url>
+       <colour>210,100,130,5</colour>
+     </ObjFile>
+   </case>
+</catalog>
