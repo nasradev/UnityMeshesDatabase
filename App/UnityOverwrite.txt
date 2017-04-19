@@ -5,11 +5,11 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-Load From DB.sln: 1B8DCBA58B448A661779A0CD475F9B5D
+Load From DB.sln: 86A97C8F4FD22A3991B3222F7B348152
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 4FCF72A4D5EDB37E24C206A7BCFE7AF1
 GeneratedProjects\UWP\Assembly-CSharp-firstpass\project.json: 4FCF72A4D5EDB37E24C206A7BCFE7AF1
 Load From DB\App.cs: 7AF698F628D51F9AF8C31A7C7065921C
-Load From DB\Load From DB.csproj: C46DEFF38BBDD06DDE35BB324D9B57D0
+Load From DB\Load From DB.csproj: 574EFF309DF9E96342B8C290B2BBF4EB
 Load From DB\Load From DB.csproj.user: BEFB8AC4886C4CFDD3C68445D6F19B04
 Load From DB\Package.appxmanifest: 167E917BBAA71E80A439C20A6E254E23
 Load From DB\project.json: 1D02BC64BAC0D041019673A1C4C51737

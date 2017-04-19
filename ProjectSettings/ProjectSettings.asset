@@ -392,11 +392,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: LoadFromDB
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DefaultCompany
+  metroCertificateIssuer: DefaultCompany
+  metroCertificateNotAfter: 8081e16e7ed7d301
   metroApplicationDescription: Load From DB
   wsaImages: {}
   metroTileShortName: 
@@ -429,7 +429,7 @@ PlayerSettings:
       Objects3D: False
       PhoneCall: False
       PicturesLibrary: False
-      PrivateNetworkClientServer: False
+      PrivateNetworkClientServer: True
       Proximity: False
       RemovableStorage: False
       SharedUserCertificates: False

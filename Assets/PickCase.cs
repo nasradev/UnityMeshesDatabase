@@ -16,9 +16,9 @@ public class PickCase : MonoBehaviour {
     GameObject panel;
 
     void Awake () {
-        GRecognizer = new GestureRecognizer();
-        GRecognizer.SetRecognizableGestures(GestureSettings.Tap);
-        GRecognizer.TappedEvent += GRecognizer_TappedEvent;	
+        //GRecognizer = new GestureRecognizer();
+        //GRecognizer.SetRecognizableGestures(GestureSettings.Tap);
+        //GRecognizer.TappedEvent += GRecognizer_TappedEvent;	
 	}
 
     void Start()
@@ -28,17 +28,24 @@ public class PickCase : MonoBehaviour {
         panel = GameObject.Find("CaseSelectorPanel");
     }
 
-    private void GRecognizer_TappedEvent(InteractionSourceKind source, int tapCount, Ray headRay)
+    //private void GRecognizer_TappedEvent(InteractionSourceKind source, int tapCount, Ray headRay)
+    //{
+    //    string id = gameObject.transform.GetChild(0).gameObject.GetComponent<Text>().text;
+    //    RenderOBJ.CaseSelectionID = id;
+    //    panel.SetActive(false);
+    //    Debug.Log("Tapped");
+    //}
+
+    public void OnSelect()
     {
         string id = gameObject.GetComponent<Text>().text;
         RenderOBJ.CaseSelectionID = id;
         panel.SetActive(false);
-        Debug.Log("Tapped");
     }
 
     private void OnDestroy()
     {
-        GRecognizer.TappedEvent -= GRecognizer_TappedEvent;
+        //GRecognizer.TappedEvent -= GRecognizer_TappedEvent;
     }
 
     // Update is called once per frame
